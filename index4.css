@@ -21,6 +21,9 @@ p {
     margin-top: 5vh;
 }
 
+.Heading {
+    letter-spacing: 0.5rem;
+}
  .outer-container {
     width: 95vw;
     height: 75vh;
@@ -42,7 +45,7 @@ p {
 }
 
 .left-side {
-    width: 35%;
+    width: 30%;
     background-color: #462424;
     color: white;
     display: flex;
@@ -55,10 +58,12 @@ p {
 .Lbder {
     border-left: 1.5vw solid #ffffff; 
     border-radius: 2%;
+    margin-top: 0;
 }
 
 .left-side p {
     margin-bottom: 1.5vh;
+    font-family: 'Archivo Black', sans-serif;
     font-size: 6vh;
     text-align: left;
     margin-left: 2vw;
@@ -68,6 +73,7 @@ p {
     display: flex;
     margin-left: 1vw;
     align-items: flex-end;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .left-side .otp {
@@ -76,7 +82,7 @@ p {
 }
 
 .right-side {
-    width: 65%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,7 +148,8 @@ input {
     color: white;
     border: none;
     padding: 1.5vh;
-    font-size: 2vh;
+    font-size: 3vh;
+    font-family: 'Archivo Black', sans-serif;
     cursor: pointer;
     border-radius: 1vh;
     margin-bottom: 2vh;
